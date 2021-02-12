@@ -1,0 +1,17 @@
+## The following mixing matrix is a good one for 3 signals:
+
+A = [0.8, 0.4, 0.2; 
+0.4, 0.8, 0.5;
+0.2, 0.5, 0.8];
+
+
+
+## For the following ones, there are special effects: (here considering 2 audio signals)
+
+1. Mixing weights with patthers like the following have the effect such that the output will be silent
+A=[0.8 0.3;
+0.8 0.3]
+
+2. Mixing weights with patterns like the following have the effect such that the output will not be silent, but the audios will not be separated very well either
+A = [0.3 0.3;
+0.8 0.8]
